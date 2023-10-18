@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <BrowserRooter>
+      <BrowserRouter>
       <Navbar/>
    <ChakraProvider/>
    <h1>Home</h1>
@@ -25,7 +25,7 @@ function App() {
         {<ItemListContainer />} />
       </Routes>
    <ItemDetailContainrer/>
-      </BrowserRooter>
+      </BrowserRouter>
   
      </>
   )
